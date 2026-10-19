@@ -1,6 +1,6 @@
 # Nhlanhla Mawelele — `@X404V2000`
 
-**Founder & AI Developer · Mpophoneni, KwaZulu-Natal, South Africa**
+**Founder & AI Developer**
 
 I build software with **orchestrated agent teams** — not by prompting a chatbot,
 but by designing a structure that constrains what each agent can see, do, and
