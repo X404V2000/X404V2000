@@ -208,6 +208,5 @@ Coursework: information ethics, data management, ICT systems, information retrie
 
 ## Contact
 
-- **Email** — mawelelenhlanhlaf57@gmail.com
 - **LinkedIn** — linkedin.com/in/nhianhla-mawelele-846408334
 - **GitHub** — github.com/X404V2000
