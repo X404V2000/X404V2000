@@ -1,4 +1,4 @@
-# Nhlanhla Mawelele — `@X404V2000`
+# Nhlanhla Mawelele - `@X404V2000`
 
 **Founder & AI Developer**
 
