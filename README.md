@@ -7,8 +7,8 @@ but by designing a structure that constrains what each agent can see, do, and
 ship. I write the charter, the boundaries, and the gates. The agents write code
 inside them.
 
-Most of what I've built is closed. It opens as it's finished a little at a time,
-deliberately. What's here is what I'm ready to show.
+I publish as things finish, not as they start. What's open here is what I'm ready
+to be judged on.
 
 ---
 
@@ -41,7 +41,7 @@ where an adversarial agent has to sign off is a system that tells me the truth.
 
 ## Featured projects
 
-### Varsity Companion
+### [Varsity Companion](https://github.com/X404V2000/uni_companion)
 **AI study companion for South African university students.**
 
 Summarises lecture material, finds curated resources per module, plans
@@ -63,8 +63,7 @@ intermittent connections.
 
 `Python` · `FastAPI` · `PostgreSQL` · `RAG` · `Expo` · `POPIA`
 
-> Private while in development for a hackathon. Building toward a SaaS product.
-> Repository opens after release.
+> **Public.** In active development for a hackathon, building toward a SaaS product.
 
 ---
 
