@@ -148,9 +148,30 @@ arguments, and swallowed exceptions.
 
 > **Public.** 2 sessions, 25 tests.
 
-**Movement Tracker** — Real-time pose estimation and trajectory prediction from
-BlazePose landmarks: physics, Kalman filtering, feature extraction and state
-transitions, with a test suite covering accuracy, uncertainty, and turning.
+### [Movement Tracker](https://github.com/X404V2000/predictive_system)
+**Real-time human movement prediction from noisy telemetry.**
+
+Predicts *where* a body will be over the next 0.1–2 s using a 9-state Kalman
+filter with automatic motion-model selection, propagating uncertainty to the
+horizon rather than reporting a bare point estimate. A second layer classifies
+*what* the body is doing from motion-capture features.
+
+- Position-only measurement — at 120 Hz, 2 cm of sensor noise becomes ~2.4 m/s
+  of phantom velocity if you differentiate before filtering
+- Uncertainty propagated through the motion model, so a 1 s projection is
+  reported as less certain than a 0.1 s one
+- Even a seated person drifts ~0.15 m/s; modelling postural drift lifted 95%
+  coverage on seated clips from 58% to 97%
+- Action classifier: **81.6%** leave-one-subject-out, against a 20.7% baseline
+- 159 tests, CI, Docker, REST + WebSocket
+
+The README documents what does *not* work: the transition model scores 64.9%
+against a 64.4% always-guess baseline, so it predicts nothing. That's written
+down rather than omitted.
+
+`Python` · `FastAPI` · `Kalman filtering` · `BlazePose` · `computer vision`
+
+> **Public.** MIT. A research project, not a product.
 
 **Failed Login Tracker** — Brute-force detection: per-IP failure counting, automated
 blocking at threshold, black/whitelist management, suspicious-activity reporting.
