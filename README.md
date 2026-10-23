@@ -2,12 +2,12 @@
 
 **Founder & AI Developer**
 
-I build software with **orchestrated agent teams** — not by prompting a chatbot,
+I build software with **orchestrated agent teams**; not by prompting a chatbot,
 but by designing a structure that constrains what each agent can see, do, and
 ship. I write the charter, the boundaries, and the gates. The agents write code
 inside them.
 
-Most of what I've built is closed. It opens as it's finished — a little at a time,
+Most of what I've built is closed. It opens as it's finished a little at a time,
 deliberately. What's here is what I'm ready to show.
 
 ---
